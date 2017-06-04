@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CalculatorTest (0)]">
+  <test name="TrigonometryTest(failed)">
+    <groups>
+      <run>
+        <exclude name="infinity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.calculator.CtgTest">
+        <methods>
+          <include name="testCtg" invocation-numbers="0 2 3"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.CtgTest -->
+      <class name="testng.calculator.CosTest">
+        <methods>
+          <include name="testCos" invocation-numbers="0 1 3 4"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.CosTest -->
+      <class name="testng.calculator.TgTest">
+        <methods>
+          <include name="testTg" invocation-numbers="0 3"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.TgTest -->
+    </classes>
+  </test> <!-- TrigonometryTest(failed) -->
+  <test name="MainFunctionsTest(failed)">
+    <classes>
+      <class name="testng.calculator.DivDoubleTest">
+        <methods>
+          <include name="divByZero"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.DivDoubleTest -->
+      <class name="testng.calculator.SumDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSumDouble" invocation-numbers="4"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.SumDoubleTest -->
+      <class name="testng.calculator.MultDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+          <include name="testMultDouble" invocation-numbers="2 3 4"/>
+        </methods>
+      </class> <!-- testng.calculator.MultDoubleTest -->
+      <class name="testng.calculator.SubDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSubDouble" invocation-numbers="4"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.SubDoubleTest -->
+    </classes>
+  </test> <!-- MainFunctionsTest(failed) -->
+  <test name="PowSqrtTest(failed)">
+    <classes>
+      <class name="testng.calculator.SqrtTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+          <include name="negativeArg"/>
+        </methods>
+      </class> <!-- testng.calculator.SqrtTest -->
+      <class name="testng.calculator.PowTest">
+        <methods>
+          <include name="testPowDouble" invocation-numbers="4 5"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.PowTest -->
+    </classes>
+  </test> <!-- PowSqrtTest(failed) -->
+  <test name="InfinityTest(failed)">
+    <groups>
+      <run>
+        <include name="infinity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.calculator.CtgTest">
+        <methods>
+          <include name="ctg0"/>
+        </methods>
+      </class> <!-- testng.calculator.CtgTest -->
+      <class name="testng.calculator.TgTest">
+        <methods>
+          <include name="tg90"/>
+        </methods>
+      </class> <!-- testng.calculator.TgTest -->
+    </classes>
+  </test> <!-- InfinityTest(failed) -->
+</suite> <!-- Failed suite [CalculatorTest (0)] -->

@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorTest" verbose="1" parallel="methods" thread-count="5">
+    <test name="TrigonometryTest">
+        <groups>
+            <run>
+                <exclude name="infinity"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.calculator.CosTest"></class>
+            <class name="testng.calculator.SinTest"></class>
+            <class name="testng.calculator.TgTest"></class>
+            <class name="testng.calculator.CtgTest"></class>
+         </classes>
+    </test>
+    <test name="PosOrNegTest">
+        <classes>
+            <class name="testng.calculator.IsNegativeTest"></class>
+            <class name="testng.calculator.IsPosititveTest"></class>
+        </classes>
+    </test>
+    <test name="MainFunctionsTest">
+        <classes>
+            <class name="testng.calculator.SumLongTest"></class>
+            <class name="testng.calculator.SumDoubleTest"></class>
+            <class name="testng.calculator.SubLongTest"></class>
+            <class name="testng.calculator.SubDoubleTest"></class>
+            <class name="testng.calculator.DivDoubleTest"></class>
+            <class name="testng.calculator.DivLongTest"></class>
+            <class name="testng.calculator.MultDoubleTest"></class>
+            <class name="testng.calculator.MultLongTest"></class>
+        </classes>
+    </test>
+    <test name="PowSqrtTest">
+        <classes>
+            <class name="testng.calculator.PowTest"></class>
+            <class name="testng.calculator.SqrtTest"></class>
+        </classes>
+    </test>
+    <test name="InfinityTest">
+        <groups>
+            <run>
+                <include name="infinity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.calculator.TgTest"></class>
+            <class name="testng.calculator.CtgTest"></class>
+        </classes>
+       </test>
+</suite>
