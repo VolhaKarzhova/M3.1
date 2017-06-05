@@ -8,6 +8,14 @@
       </run>
     </groups>
     <classes>
+      <class name="testng.calculator.TgTest">
+        <methods>
+          <include name="testTg" invocation-numbers="0 3"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.TgTest -->
       <class name="testng.calculator.CtgTest">
         <methods>
           <include name="testCtg" invocation-numbers="0 2 3"/>
@@ -24,34 +32,10 @@
           <include name="setPhraseDone"/>
         </methods>
       </class> <!-- testng.calculator.CosTest -->
-      <class name="testng.calculator.TgTest">
-        <methods>
-          <include name="testTg" invocation-numbers="0 3"/>
-          <include name="setUp"/>
-          <include name="setPhrase"/>
-          <include name="setPhraseDone"/>
-        </methods>
-      </class> <!-- testng.calculator.TgTest -->
     </classes>
   </test> <!-- TrigonometryTest(failed) -->
   <test name="MainFunctionsTest(failed)">
     <classes>
-      <class name="testng.calculator.DivDoubleTest">
-        <methods>
-          <include name="divByZero"/>
-          <include name="setUp"/>
-          <include name="setPhrase"/>
-          <include name="setPhraseDone"/>
-        </methods>
-      </class> <!-- testng.calculator.DivDoubleTest -->
-      <class name="testng.calculator.SumDoubleTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testSumDouble" invocation-numbers="4"/>
-          <include name="setPhrase"/>
-          <include name="setPhraseDone"/>
-        </methods>
-      </class> <!-- testng.calculator.SumDoubleTest -->
       <class name="testng.calculator.MultDoubleTest">
         <methods>
           <include name="setUp"/>
@@ -68,18 +52,26 @@
           <include name="setPhraseDone"/>
         </methods>
       </class> <!-- testng.calculator.SubDoubleTest -->
+      <class name="testng.calculator.DivDoubleTest">
+        <methods>
+          <include name="divByZero"/>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.DivDoubleTest -->
+      <class name="testng.calculator.SumDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSumDouble" invocation-numbers="4"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+        </methods>
+      </class> <!-- testng.calculator.SumDoubleTest -->
     </classes>
   </test> <!-- MainFunctionsTest(failed) -->
   <test name="PowSqrtTest(failed)">
     <classes>
-      <class name="testng.calculator.SqrtTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="setPhrase"/>
-          <include name="setPhraseDone"/>
-          <include name="negativeArg"/>
-        </methods>
-      </class> <!-- testng.calculator.SqrtTest -->
       <class name="testng.calculator.PowTest">
         <methods>
           <include name="testPowDouble" invocation-numbers="4 5"/>
@@ -88,6 +80,14 @@
           <include name="setPhraseDone"/>
         </methods>
       </class> <!-- testng.calculator.PowTest -->
+      <class name="testng.calculator.SqrtTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setPhrase"/>
+          <include name="setPhraseDone"/>
+          <include name="negativeArg"/>
+        </methods>
+      </class> <!-- testng.calculator.SqrtTest -->
     </classes>
   </test> <!-- PowSqrtTest(failed) -->
   <test name="InfinityTest(failed)">
@@ -97,16 +97,16 @@
       </run>
     </groups>
     <classes>
-      <class name="testng.calculator.CtgTest">
-        <methods>
-          <include name="ctg0"/>
-        </methods>
-      </class> <!-- testng.calculator.CtgTest -->
       <class name="testng.calculator.TgTest">
         <methods>
           <include name="tg90"/>
         </methods>
       </class> <!-- testng.calculator.TgTest -->
+      <class name="testng.calculator.CtgTest">
+        <methods>
+          <include name="ctg0"/>
+        </methods>
+      </class> <!-- testng.calculator.CtgTest -->
     </classes>
   </test> <!-- InfinityTest(failed) -->
 </suite> <!-- Failed suite [CalculatorTest (0)] -->

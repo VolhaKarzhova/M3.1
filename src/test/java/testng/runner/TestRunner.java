@@ -3,7 +3,7 @@ package testng.runner;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.xml.XmlSuite;
-import testng.listeners.MyListener;
+import testng.listeners.TestNGListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class TestRunner {
         TestListenerAdapter tln = new TestListenerAdapter();
         TestNG ng = new TestNG();
         ng.addListener(tln);
-        ng.addListener(new MyListener());
+        ng.addListener(new TestNGListener());
 
         XmlSuite suite = new XmlSuite();
         suite.setName("CalculatorTest");
@@ -33,4 +33,3 @@ public class TestRunner {
         ng.run();
     }
 }
-

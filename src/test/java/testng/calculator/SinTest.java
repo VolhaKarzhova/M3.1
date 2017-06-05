@@ -14,19 +14,18 @@ public class SinTest extends BaseTest {
         Assert.assertEquals(sin, expected);
     }
 
-    //ability to accept string numbers is shown in the last set of parameters.
     @DataProvider(name = "sinDataProvider")
-    public Object[][] sinDataProvider () {
-        return new Object[][] {
+    public Object[][] sinDataProvider() {
+        return new Object[][]{
                 {0.0, 0.0},
-                {30.0,0.5},
+                {30.0, 0.5},
                 {45.0, 0.707},
                 {60.0, 0.866},
-                {Double.valueOf("90.0"), Double.valueOf("1.0")}
+                {90.0, 1.0}
         };
     }
 
-    private double round (double value) {
-        return (double) Math.round(value*1000d)/1000d;
+    private double round(double value) {
+        return (double) Math.round(value * 1000d) / 1000d;
     }
 }

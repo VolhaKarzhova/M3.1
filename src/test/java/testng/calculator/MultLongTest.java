@@ -14,16 +14,14 @@ public class MultLongTest extends BaseTest {
         Assert.assertEquals(mult, expected);
     }
 
-    //ability to accept string numbers is shown in the last set of parameters.
     @DataProvider(name = "multDataProvider")
-    public Object[][] multDataProvider () {
-        return new Object[][] {
+    public Object[][] multDataProvider() {
+        return new Object[][]{
                 {-1, 0, 0},
                 {0, 0, 0},
                 {-1, -2, 2},
                 {2, -1, -2},
-                {1500, 2, 3000},
-                {Long.valueOf("20"), Long.valueOf("2"), Long.valueOf("40")}
+                {1500, 2, 3000}
         };
     }
 }

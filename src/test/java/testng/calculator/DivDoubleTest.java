@@ -15,20 +15,18 @@ public class DivDoubleTest extends BaseTest {
         Assert.assertEquals(div, expected);
     }
 
-    @Test (priority = 1, expectedExceptions = NumberFormatException.class)
+    @Test(priority = 1, expectedExceptions = NumberFormatException.class)
     public void divByZero() {
-        double div = calculator.div(1.0, 0.0);
+        calculator.div(1.0, 0.0);
     }
 
-    //ability to accept string numbers is shown in the last set of parameters.
     @DataProvider(name = "divDataProvider")
-    public Object[][] divDataProvider () {
-        return new Object[][] {
+    public Object[][] divDataProvider() {
+        return new Object[][]{
                 {-8.0, 4.0, -2.0},
                 {-4.0, -2.5, 1.6},
                 {2.6, -1.0, -2.6},
                 {20.8, 2.0, 10.4},
-                {Double.valueOf("20.0"), Double.valueOf("2.0"), Double.valueOf("10.0")}
         };
     }
 }

@@ -15,17 +15,15 @@ public class SumLongTest extends BaseTest {
         Assert.assertEquals(sum, expected);
     }
 
-    //ability to accept string numbers is shown in the last set of parameters as well.
     @DataProvider(name = "sumDataProvider")
-    public Object[][] sumDataProvider () {
-        return new Object[][] {
-                {1,1,2},
-                {0,0,0},
-                {-1,-1,-2},
-                {2,-1,1},
-                {5000,5000,10000},
-                {-5, 2,-3},
-                {Long.valueOf("2"), Long.valueOf("2"), Long.valueOf("4")}
+    public Object[][] sumDataProvider() {
+        return new Object[][]{
+                {1, 1, 2},
+                {0, 0, 0},
+                {-1, -1, -2},
+                {2, -1, 1},
+                {5000, 5000, 10000},
+                {-5, 2, -3},
         };
-   }
+    }
 }

@@ -10,7 +10,7 @@ public class BaseTest {
     protected Calculator calculator;
 
     @BeforeSuite
-    public void setPhrase () {
+    public void setPhrase() {
         System.out.println("Set of Unit tests for Calculator applications starts");
     }
 
@@ -20,12 +20,12 @@ public class BaseTest {
     }
 
     @BeforeGroups(value = {"cos"})
-    public void setStartPhrase () {
+    public void setStartPhrase() {
         System.out.println("Calculation of COS starts");
     }
 
     @AfterGroups(value = {"cos"})
-    public void setFinishPhrase () {
+    public void setFinishPhrase() {
         System.out.println("Tests are completed");
     }
 
@@ -35,14 +35,15 @@ public class BaseTest {
     }
 
     @AfterGroups(value = {"sin"})
-    public void setFinishPhraseSin () {
+    public void setFinishPhraseSin() {
         System.out.println("Tests are completed");
     }
 
     @AfterSuite
-    public void setPhraseDone () {
+    public void setPhraseDone() {
         System.out.println("Set of Unit tests for Calculator application completed. Please, check the results");
     }
+
     protected void checkTime() {
         System.out.println("Current time: " + new Date(System.currentTimeMillis()));
     }

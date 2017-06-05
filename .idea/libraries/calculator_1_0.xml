@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="calculator-1.0">
     <CLASSES>
-      <root url="jar:///media/sf_ShareFolder/calculator-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/calculator-1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

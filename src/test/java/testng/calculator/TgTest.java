@@ -14,25 +14,22 @@ public class TgTest extends BaseTest {
         Assert.assertEquals(tg, expected);
     }
 
-    //ability to accept string numbers is shown in the last set of parameters.
     @DataProvider(name = "tgDataProvider")
-    public Object[][] tgDataProvider () {
-        return new Object[][] {
+    public Object[][] tgDataProvider() {
+        return new Object[][]{
                 {30.0, 0.577},
                 {0.0, 0.0},
                 {45.0, 1.0},
-                {Double.valueOf("60.0"), Double.valueOf("1.732")}
+                {60.0, 1.732}
         };
     }
 
-    //Tangens of the 90 can't be counted as sin0=0
-    @Test(groups = "infinity", expectedExceptions = NumberFormatException.class)
-    public void tg90 () {
+    @Test(groups = "infinity", expectedExceptions = NumberFormatException.class, alwaysRun = true)
+    public void tg90() {
         calculator.tg(90.0);
     }
 
-    private double round (double value) {
-        return (double) Math.round(value*1000d)/1000d;
+    private double round(double value) {
+        return (double) Math.round(value * 1000d) / 1000d;
     }
-
 }

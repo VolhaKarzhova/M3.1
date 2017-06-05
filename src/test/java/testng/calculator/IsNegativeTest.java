@@ -13,15 +13,15 @@ public class IsNegativeTest extends BaseTest {
         boolean pos = calculator.isNegative(a);
         Assert.assertEquals(pos, expected);
     }
-    //ability to accept string numbers is shown in the last set of parameters.
+
     @DataProvider(name = "negDataProvider")
-    public Object[][] negDataProvider () {
-        return new Object[][] {
+    public Object[][] negDataProvider() {
+        return new Object[][]{
                 {-1, true},
                 {0, false},
                 {1, false},
-                {-(-2), false},
-                {Long.valueOf("10"), Boolean.valueOf("false")}
+                {500, false},
+                {-500, true}
         };
     }
 }

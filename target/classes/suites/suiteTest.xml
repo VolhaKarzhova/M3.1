@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="CalculatorTest" verbose="1" parallel="methods" thread-count="5">
+<suite name="CalculatorTest" verbose="1" parallel="false" thread-count="5">
     <test name="TrigonometryTest">
         <groups>
             <run>
@@ -17,7 +17,7 @@
     <test name="PosOrNegTest">
         <classes>
             <class name="testng.calculator.IsNegativeTest"></class>
-            <class name="testng.calculator.IsPosititveTest"></class>
+            <class name="testng.calculator.IsPositiveTest"></class>
         </classes>
     </test>
     <test name="MainFunctionsTest">
@@ -38,15 +38,4 @@
             <class name="testng.calculator.SqrtTest"></class>
         </classes>
     </test>
-    <test name="InfinityTest">
-        <groups>
-            <run>
-                <include name="infinity"></include>
-            </run>
-        </groups>
-        <classes>
-            <class name="testng.calculator.TgTest"></class>
-            <class name="testng.calculator.CtgTest"></class>
-        </classes>
-       </test>
-</suite>
+ </suite>
