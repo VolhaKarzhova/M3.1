@@ -1,4 +1,6 @@
-*target
-*.idea
-*.iml
-*test-output
+/.idea
+/*.iml
+/target
+/temp-testng-customsuite.xml
+/test-output
+/logs
