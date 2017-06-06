@@ -2,6 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6ce680-353f-479f-9c3f-25411fce3bcf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_M4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_M4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/calculator_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hometask.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/calculator-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/suites/suiteTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/CosTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/CtgTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/DivByZero.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/DivDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/DivLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/InfinityTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/IsNegativeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/IsPositiveTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/MultDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/MultLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/PowTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SinTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SqrtNegativeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SqrtTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SubDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SubLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SumDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/SumLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/calculator/TgTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/common/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/runner/JunitTestSuiteRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/junit/suites/JunitSuit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/CosTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/CtgTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/DivDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/DivLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/IsNegativeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/IsPositiveTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/MultDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/MultLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/PowTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SinTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SqrtTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SubDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SubLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SumDoubleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/SumLongTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/calculator/TgTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/listeners/TestNGListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/runner/TestRunner$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/testng/runner/TestRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/InfinityTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/InfinityTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/MainFunctionsTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/MainFunctionsTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/PosOrNegTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/PosOrNegTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/PowSqrtTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/PowSqrtTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/TrigonometryTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/TrigonometryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/CalculatorTest (0)/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.CosTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.CtgTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.DivDoubleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.DivLongTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.IsNegativeTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.IsPosititveTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.IsPositiveTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.MultDoubleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.MultLongTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.PowTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SinTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SqrtTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SubDoubleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SubLongTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SumDoubleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.SumLongTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testng.calculator.TgTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/InfinityTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/MainFunctionsTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/PosOrNegTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/PowSqrtTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/TrigonometryTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/CalculatorTest (0)/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +146,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,16 +248,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M3.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M3.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -561,7 +668,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2017" y="134" width="1562" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -572,13 +678,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3538163" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3538163" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -927,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
